@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.CartContainer {
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+
+.Cantidad {
+    position: absolute;
+    color: #ffbc0e;
+    margin-left: 20px;
+}
